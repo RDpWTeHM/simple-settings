@@ -640,6 +640,12 @@ Any other config of dynamic settings will be pass to reader backend on argument 
 
 Changelog
 ---------
+[0.19.2] - 2020-04-16
+~~~~~~~~~~~~~~~~~~~~~
+
+- Fix cwd not in sys.path when use simple-settings in a installed project.
+  Run project which created by installed project (like django, scrapy).
+
 [0.19.1] - 2019-10-21
 ~~~~~~~~~~~~~~~~~~~~~
 
